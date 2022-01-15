@@ -277,6 +277,202 @@ footer p {
     padding-top: 15px;
 }
 
+.social-media p {
+    color: #bfc3c7;
+    padding-bottom: 15px;
+}
+
 .social-icon a {
     text-decoration: none;
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (max-width:1250px) {
+    .Collections {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (max-width:1076px) {
+    .section-one {
+        width: 100%;
+        padding: 0 55px;
+    }
+    .section-one-info h1 {
+        font-size: 2rem;
+        line-height: 50px;
+    }
+    .main-camera img {
+        width: 400px;
+        height: 384px;
+    }
+    .featured-products {
+        width: 100%;
+        padding: 0 55px;
+    }
+    .featured-info h2 {
+        font-size: 2rem;
+        line-height: 50px;
+    }
+    .featured-img img {
+        width: 400px;
+        height: 384px;
+    }
+    .Customer-Care {
+        width: 100%;
+        padding: 0 55px;
+    }
+    .details h2 {
+        font-size: 2rem;
+        line-height: 50px;
+    }
+    .Customer-Care-img img {
+        width: 400px;
+        height: 384px;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (max-width: 900px) {
+    .section-one {
+        flex-direction: column;
+    }
+    .section-one-info {
+        width: 100%;
+        padding: 0;
+        order: 2;
+    }
+    .section-one-info h1 {
+        text-align: center;
+    }
+    .main-camera {
+        width: 100%;
+        padding: 0;
+        order: 1;
+        text-align: center;
+    }
+    .Customer-Care {
+        flex-direction: column;
+    }
+    .details {
+        width: 100%;
+        padding: 0;
+        order: 2;
+    }
+    .details h2 {
+        text-align: center;
+    }
+    .Customer-Care-img {
+        width: 100%;
+        padding: 0;
+        order: 1;
+        text-align: center;
+    }
+    .featured-products {
+        flex-direction: column;
+    }
+    .featured-info {
+        width: 100%;
+        padding: 0;
+        order: 2;
+    }
+    .featured-info h2 {
+        text-align: center;
+    }
+    .feature-img {
+        width: 100%;
+        padding: 0;
+        order: 1;
+        text-align: center;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 778px and up) */
+
+@media only screen and (max-width: 816px) {
+    .navigation-bar {
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(241, 241, 241);
+        padding: 20px 0;
+        transform: translateY(-380px);
+        transition: .5s ease-in-out;
+    }
+    .navigation-bar ul li {
+        display: block;
+        padding: 10px 0;
+        text-align: center;
+    }
+    .Collections {
+        width: 100%;
+        margin: 0;
+        padding: 0px;
+        grid-gap: 10px
+    }
+}
+
+
+/* Medium devices (landscape tablets, 712px and up) */
+
+@media only screen and (max-width: 816px) {
+    .Collections {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    nav {
+        text-align: center;
+    }
+    .nav-name h2 {
+        padding-left: 0px;
+        font-size: 14px;
+        margin-left: 50px;
+    }
+    .main-camera img {
+        width: 200px;
+        height: 150px;
+    }
+    .featured-img img {
+        width: 200px;
+        height: 150px;
+    }
+    .Customer-Care-img img {
+        width: 200px;
+        height: 150px;
+    }
+    .section-one {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .featured-products {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .Customer-Care {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .Collections {
+        grid-gap: 10px;
+        width: 90%;
+        margin: 0 auto;
+    }
 }
