@@ -6,7 +6,62 @@ body {
 }
 
 
-/* Header style start*/
+/*...... Navbar section
+.................... */
+
+nav {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 5;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.nav-name h2 {
+    font-weight: bold;
+    font-size: 24px;
+    color: #3A3A3A;
+}
+
+.navigation-bar {
+    padding-right: 100px;
+}
+
+.navigation-bar ul li {
+    display: inline;
+    list-style: none;
+}
+
+.navigation-bar ul li a {
+    padding-right: 20px;
+    text-decoration: none;
+    color: #3A3A3A;
+    font-weight: 600;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.navigation-bar ul li a .fa-search {
+    font-size: 18px;
+}
+
+.navigation-bar ul li a .fa-shopping-cart {
+    font-size: 20px;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-icon {
+    display: none;
+}
+
+
+/* ...........Main Section
+...........................*/
 
 .head-titel {
     font-family: Poppins;
@@ -24,7 +79,7 @@ body {
     display: flex;
 }
 
-.main-camera>img {
+.main-camera img {
     width: 430px;
     height: 404px;
 }
@@ -40,10 +95,8 @@ body {
 }
 
 
-/* Header style end*/
-
-
-/* popular-item start*/
+/* ........Popular Collection
+..............................*/
 
 .section-two-titel {
     text-align: center;
@@ -80,6 +133,7 @@ body {
 .fa-star {
     width: 16px;
     height: 16px;
+    font-size: 11px;
 }
 
 .star {
@@ -87,7 +141,7 @@ body {
 }
 
 .unone {
-    color: lightgoldenrodyellow;
+    color: rgb(247, 247, 149)
 }
 
 .other-info {
@@ -128,14 +182,12 @@ body {
 }
 
 
-/* popular item end */
+/*..........Featured products
+...........................*/
 
-
-/* future poduct start */
-
-.future {
+.featured-products {
     display: flex;
-    padding: 10px;
+    padding: 50px 0px 60px 0px;
 }
 
 .join-now-button {
@@ -149,7 +201,7 @@ body {
     font-size: 16px;
 }
 
-.future-main-titel {
+.featured-titel {
     font-family: Poppins;
     font-style: normal;
     font-weight: bold;
@@ -157,12 +209,74 @@ body {
 }
 
 
-/* section end */
+/*.......................
+bonus section
+.......................*/
+
+.Customer-Care-img {
+    width: 100%;
+}
+
+.Customer-Care {
+    display: flex;
+    padding: 40px 0px 40px 0px;
+    background-color: whitesmoke;
+}
+
+.details {
+    padding: 0px 10px 0px 15px;
+}
 
 
-/* footer start */
+/* ..........footer section
+.........................*/
 
 footer {
     background-color: #0A0826;
+    height: 239px;
     width: 100%;
+    text-align: center;
+    line-height: 2px;
+    padding-top: 10px;
+}
+
+footer h3 {
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+footer p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #D9DBE1;
+    text-align: center;
+}
+
+#all-rights {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.fab {
+    color: white;
+    margin-right: 10px;
+    width: 100%;
+    text-align: center;
+    display: inline;
+}
+
+.social-media {
+    padding-top: 15px;
+}
+
+.social-icon a {
+    text-decoration: none;
 }
